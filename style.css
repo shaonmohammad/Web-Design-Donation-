@@ -1,0 +1,220 @@
+body {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+p {
+    font-size: 17px;
+    color: gray
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+header {
+
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+
+}
+
+.header-info {
+    padding: 100px 0px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-info h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.header-info p {
+    color: antiquewhite;
+}
+
+.button {
+    background-color: rgb(251, 100, 84);
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.donate-today h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.donate-today {
+    padding: 100px 0px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.amount {
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+
+
+}
+
+.all-taka {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+
+
+}
+
+.all-taka h1 {
+    font-size: 35px;
+}
+
+.tk {
+    background-color: rgb(244, 242, 242);
+    padding: 0px 20px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+#active-tk {
+    border: 2px solid salmon;
+    background-color: rgba(250, 128, 114, 0.243);
+    color: salmon;
+}
+
+#active-tk h1 {
+    color: rgb(245, 73, 54);
+}
+
+.plan {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.plan h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.size {
+    font-size: 60px;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 200px;
+
+}
+
+.card {
+    width: 20%;
+    margin: 0px 25px;
+
+}
+
+.card1 {
+    background-color: rgba(244, 165, 96, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card2 {
+    background-color: rgba(127, 255, 212, 0.346);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card3 {
+    background-color: rgba(100, 148, 237, 0.298);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contribute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+
+}
+
+.half-width {
+    width: 40%;
+    margin: 0px 40px;
+}
+
+.half-width img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+form [type="text"] {
+    padding: 20px;
+
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.662);
+    border: none;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+form [type="button"] {
+    padding: 20px;
+    margin-right: -5px;
+    color: white;
+    font-weight: bold;
+    background-color: salmon;
+    border: none;
+    font-size: 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.box {
+    padding: 70px 80px;
+    background-color: rgba(255, 228, 196, 0.773);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.update {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+footer h1 {
+    color: salmon;
+}
